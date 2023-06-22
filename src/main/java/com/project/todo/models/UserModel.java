@@ -28,5 +28,8 @@ public class UserModel {
         inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
     private List<Role> roles = new ArrayList<>();
 
+//    @OneToMany(mappedBy = "users", cascade = CascadeType.ALL)
+//    private List<List> lists;
+
 
 }
